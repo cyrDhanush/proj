@@ -12,6 +12,7 @@ class generatorclass :
         return password 
 
     def generator(self):
+        noofdigits=0
         reslist,rawlist,noofdigits=self.askq(1, [])
         returnlist=self.seperator(noofdigit, rawlist)
         password=self.passgen(returnlist)
