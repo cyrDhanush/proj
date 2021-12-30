@@ -23,7 +23,7 @@ class alpha:
     def alphab(self, string):
         finalstring=""
         for i in string:
-            if i is 'a':
+            if i=='a':
                 var="AAAAA\nA   A\nAAAAA\nA   A\nA   A"
                 finalstring=finalstring + "\n\n" + var
                 
